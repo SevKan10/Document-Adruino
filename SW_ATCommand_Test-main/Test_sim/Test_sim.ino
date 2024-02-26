@@ -1,8 +1,8 @@
-String ADMIN = "0949748546";            //Số ĐT ADMIN
+String ADMIN = "";            //Số ĐT ADMIN
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Test Module SIM800L"); 
+  Serial.println("Test Module "); 
   for(int i=15; i>0; i--){Serial.println(i); delay(1000);}
   Serial2.begin(9600, SERIAL_8N1, 16, 17);
 }
